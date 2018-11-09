@@ -1,14 +1,11 @@
 *.sw[a-z]
 coverage
 node_modules
-bitcore-mnemonic.js
-bitcore-mnemonic.min.js
-tests.js
 
-lib/errors/index.js
+# build artifacts directory
+dist/
+
 npm-debug.log
 
-bower_components
-report
 .DS_Store
 .idea
