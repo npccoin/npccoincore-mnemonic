@@ -36,10 +36,8 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "bitcore-build-dash": "dashpay/bitcore-build-dash#1437e43807d56051f4f85d5ed00d35abca8b20ca",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
-    "gulp": "^3.8.10",
     "mocha": "^2.2.5"
   },
   "dependencies": {
