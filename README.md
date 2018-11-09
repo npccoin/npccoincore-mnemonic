@@ -84,5 +84,5 @@ Feel free to dive in! [Open an issue](https://github.com/dashevo/dapi/issues/new
 
 Code released under [the MIT license](LICENSE).
 
-Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2015-2018 Dash Core Group, Inc.
+Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.  
+Copyright 2015-2018 Dash Core Group, Inc.  
