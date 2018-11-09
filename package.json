@@ -1,8 +1,8 @@
 {
   "name": "@dashevo/dashcore-mnemonic",
   "version": "1.5.0",
-  "description": "BIP39 Mnemonics implemented for Dashcore.",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "BIP39 Mnemonics for Dashcore",
+  "author": "Dash Core Group, Inc. <dev@dash.org>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
