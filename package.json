@@ -7,8 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "build": "TODO: some webpack-y type thing to turn lib files into a dashcore-mnemonic.js file"
   },
   "contributors": [
     {
