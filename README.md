@@ -78,7 +78,7 @@ var xpriv2 = code.toHDPrivateKey('my passphrase'); // using a passphrase
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/dashevo/dapi/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/dashevo/dashcore-mnemonic/issues/new) or submit PRs.
 
 ## License
 
