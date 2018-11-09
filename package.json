@@ -5,7 +5,7 @@
   "author": "Dash Core Group, Inc. <dev@dash.org>",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./lib ./test",
+    "lint": "eslint .",
     "test": "mocha",
     "coverage": "gulp coverage",
     "build": "gulp"
