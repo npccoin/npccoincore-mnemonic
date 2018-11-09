@@ -1,7 +1,7 @@
 # dashcore-mnemonic
 
 [![Build Status](https://img.shields.io/travis/dashevo/dashcore-mnemonic.svg?branch=master)](https://travis-ci.org/dashevo/dashcore-mnemonic)
-[![NPM Package](https://img.shields.io/npm/v/@dashcore/dashcore-mnemonic.svg)](https://www.npmjs.org/package/@dashevo/dashcore-mnemonic)
+[![NPM Package](https://img.shields.io/npm/v/@dashevo/dashcore-mnemonic.svg)](https://www.npmjs.org/package/@dashevo/dashcore-mnemonic)
 
 > BIP39 Mnemonics for Dashcore
 
