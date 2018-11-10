@@ -76,6 +76,47 @@ var xpriv1 = code.toHDPrivateKey(); // no passphrase
 var xpriv2 = code.toHDPrivateKey('my passphrase'); // using a passphrase
 ```
 
+### Browser Usage
+
+A webpack config is included in order to build a browser bundle:
+
+```sh
+npm run build
+```
+
+This will generate a file `dist/dashcore-mnemonic.js`, which can be included into your HTML a-like so:
+
+```html
+<html lang="en">
+<head>
+  <title>Tester - DashCore Mnemonic</title>
+  <script language="javascript" src="dist/dashcore-mnemonic.js"></script>
+</head>
+<body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var mnemonic = new dashcoreMnemonic();
+      console.log("MNEMONIC: " + mnemonic.toString());
+
+      var xpriv1 = mnemonic.toHDPrivateKey(); // no passphrase
+      var xpriv2 = mnemonic.toHDPrivateKey('my passphrase'); // using a passphrase
+
+      console.log("xpriv1: " + xpriv1);
+      console.log("xpriv2: " + xpriv2);
+    });
+  </script>
+</body>
+</html>
+```
+
+This test snippet is included as a file in this repo called "example.html", and you can test this in a browser. We'll use Docker to simplify this:
+
+```sh
+docker run --rm --name nginx -p 127.0.0.1:80:80 -v $PWD:/usr/share/nginx/html nginx:alpine
+```
+
+Now navigate to <http://localhost/example.html> and open a console window. You should see the expected console output from the `console.log` lines in the HTML snippet above.
+
 ## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/dashevo/dashcore-mnemonic/issues/new) or submit PRs.
