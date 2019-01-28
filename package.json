@@ -1,6 +1,6 @@
 {
   "name": "@dashevo/dashcore-mnemonic",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "BIP39 Mnemonics for Dashcore",
   "author": "Dash Core Group, Inc. <dev@dash.org>",
   "main": "index.js",
