@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/dashcore-mnemonic",
+  "name": "@npccoin/npccoincore-mnemonic",
   "version": "1.6.1",
-  "description": "BIP39 Mnemonics for Dashcore",
-  "author": "Dash Core Group, Inc. <dev@dash.org>",
+  "description": "BIP39 Mnemonics for NPCcoincore",
+  "author": "NPCcoin Core developers. <npccoin@gmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -10,6 +10,10 @@
     "build": "webpack"
   },
   "contributors": [
+    {
+      "name": "Estilodevida",
+      "email": "estilodevidanpc@gmail.com"
+    },
     {
       "name": "Yemel Jardi",
       "email": "angel.jardi@gmail.com"
@@ -21,16 +25,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-mnemonic.git"
+    "url": "https://github.com/npccoin/npccoincore-mnemonic.git"
   },
   "keywords": [
-    "dash",
-    "bitcore",
+    "npccoin",
+    "npc",
     "mnemonic",
     "crypto",
     "cryptography",
     "encryption",
-    "dashcore"
+    "npccoincore"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -45,6 +49,6 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.16.7"
+    "@npccoin/npccoincore-lib": "^0.16.7"
   }
 }

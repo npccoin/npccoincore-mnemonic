@@ -1,3 +1,3 @@
-const dashcore = require('@dashevo/dashcore-lib');
+const npccoincore = require('@npccoin/npccoincore-lib');
 
-module.exports = dashcore.Mnemonic;
+module.exports = npccoincore.Mnemonic;
