@@ -49,6 +49,6 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "@npccoin/npccoincore-lib": "^0.16.7"
+    "npccoincore-lib": "^0.18.0"
   }
 }
